@@ -46,7 +46,7 @@ a { color: inherit; }
   * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
-/* ---------- TIPOGRAFÍA ---------- */
+/* TIPOGRAFÍA */
 h1, h2, h3 {
   font-family: var(--fuente-display);
   font-weight: 500;
@@ -72,7 +72,7 @@ h3 { font-size: 1.25rem; }
 
 .titulo-seccion { text-align: center; max-width: 620px; margin: 0 auto; color: var(--tinta); }
 
-/* ---------- BOTONES ---------- */
+/* BOTONES */
 .boton {
   display: inline-flex;
   align-items: center;
@@ -105,7 +105,7 @@ h3 { font-size: 1.25rem; }
 .boton-grande { padding: 16px 32px; font-size: 1rem; }
 .boton-chico { padding: 10px 20px; font-size: 0.88rem; }
 
-/* ---------- ENCABEZADO ---------- */
+/* ENCABEZADO */
 .encabezado {
   position: sticky;
   top: 0;
@@ -186,7 +186,7 @@ h3 { font-size: 1.25rem; }
 }
 .nav-movil.abierto { display: flex; }
 
-/* ---------- HERO ---------- */
+/* HERO */
 .hero {
   position: relative;
   padding: 64px 0 0;
@@ -270,7 +270,7 @@ h3 { font-size: 1.25rem; }
 .divisor-onda path { fill: var(--salvia); }
 .divisor-onda-superior path { fill: var(--esmeralda); }
 
-/* ---------- PROMOCIONES ---------- */
+/* PROMOCIONES */
 .tratamientos {
   background: var(--salvia);
   padding: 70px 0 90px;
@@ -317,7 +317,7 @@ h3 { font-size: 1.25rem; }
 }
 .enlace-tarjeta:hover { color: var(--latón); }
 
-/* ---------- NOSOTROS ---------- */
+/* NOSOTROS */
 .nosotros {
   background: var(--esmeralda);
   color: var(--porcelana);
@@ -357,7 +357,7 @@ h3 { font-size: 1.25rem; }
 .estadistica-numero small { font-size: 1.1rem; opacity: 0.8; }
 .estadistica-etiqueta { font-size: 0.82rem; color: rgba(8, 33, 12, 0.75); }
 
-/* ---------- OPINIONES ---------- */
+/* OPINIONES */
 .opiniones { padding: 90px 0; }
 
 .tarjeta-opinion {
@@ -403,7 +403,7 @@ h3 { font-size: 1.25rem; }
 .opinion-autor strong { color: var(--tinta); }
 .opinion-autor span { color: var(--tinta-suave); }
 
-/* ---------- CONTACTO ---------- */
+/* CONTACTO */
 .contacto {
   background: var(--esmeralda);
   color: var(--porcelana);
@@ -436,7 +436,7 @@ h3 { font-size: 1.25rem; }
   margin-bottom: 4px;
 }
 
-/* ---------- PIE ---------- */
+/* PIE */
 .pie { background: var(--esmeraldaT); color: var(--tinta); padding: 28px 0; }
 .pie-interior {
   display: flex;
@@ -449,7 +449,7 @@ h3 { font-size: 1.25rem; }
 .marca-pie { color: var(--tinta); font-size: 1.1rem; }
 .marca-pie span { color: var(--latón); }
 
-/* ---------- WHATSAPP FLOTANTE ---------- */
+/* WHATSAPP FLOTANTE */
 .whatsapp-flotante {
   position: fixed;
   bottom: 22px;
@@ -468,13 +468,13 @@ h3 { font-size: 1.25rem; }
 .whatsapp-flotante svg { width: 28px; height: 28px; fill: #08210c; }
 .whatsapp-flotante:hover { transform: scale(1.08); }
 
-/* ---------- ACCESIBILIDAD ---------- */
+/* ACCESIBILIDAD */
 a:focus-visible, button:focus-visible {
   outline: 2.5px solid var(--latón);
   outline-offset: 3px;
 }
 
-/* ---------- RESPONSIVE ---------- */
+/* RESPONSIVE */
 @media (max-width: 980px) {
   .nosotros-grid { grid-template-columns: 1fr; gap: 36px; }
   .nosotros-parrafo { max-width: none; }
